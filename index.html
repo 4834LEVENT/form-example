@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">KAYIT FORMU</h1>
+            <h3 class="description">Kayıt olduğunuz için teşekkürler</h3>
+        </header>
+        <div class="form-container">
+            <div class="survey-form">
+                <form action="result.html" method="get">
+                  <div class="input-box">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="enter your name">
+                  </div class="input-box">  
+                  <div>
+                    <label for="surname">Surname</label>
+                    <br>
+                    <input type="text" id="surname" name="surname" placeholder="enter your surname">
+                  </div>  
+                  <div class="input-box">
+                    <label for="email">email</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="enter your email">
+                  </div>  
+                  <div class="input-box">
+                    <label for="phone">Phone Number</label>
+                    <br>
+                    <input type="number" id="phone" name="phone" placeholder="enter your phone number">
+                  </div>  
+                  <div class="input-box">
+                    <h4>select your favoritte color</h4>
+                    <label for="select">Blue</label>
+                    <input type="checkbox" id="select" name="blue" >
+                    <label for="yellow">yellow</label>
+                    <input type="checkbox" id="yellow" name="yellow" >
+                    <label for="red">red</label>
+                    <input type="checkbox" id="red" name="red" >
+                  </div>  
+                  <div class="input-box">
+                    <label for="gender">Gender</label>
+                    
+                    <input type="radio" name="gender" id="first-radio">
+                    <label for="first-radio">Erkek</label>
+                    <input type="radio" name="gender" id="second-radio">
+                    <label for="second-radio">Kız</label>
+                  </div>
+                  <br>
+                  <div class="input-box">
+                    <label for="city">Yaşadığınız Şehir</label>
+                    <br>
+                    <select name="city" id="dropdown">
+                      <option value="İstanbul">İstanbul</option>
+                      <option value="Ankara">Ankara</option>
+                      <option value="İzmir" selected>İzmir</option>
+                      <option value="Bursa">Bursa</option>
+                      <option value="Gaziantep">Gaziantep</option>
+                    </select>
+                  </div>
+                  <div class="input-box">
+                    <label for="file">Dosya</label>
+                    <input type="file" id="file" multiple>
+                  </div>
+                  <div id="form-submit">
+                    <input type="submit" value="Gönder" id="form-button">
+                  </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
